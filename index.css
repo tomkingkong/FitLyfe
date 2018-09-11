@@ -3,22 +3,44 @@ body {
 }
 
 .desktop_main {
-  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .desktop {
-  display: inline-block;
-  width: 49%;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  max-width: 30rem;
   border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .btn {
   display: none;
 }
 
+.slider_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider {
+  width: 100%;
+}
+
 .fitness_nav {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   border: none;
+}
+
+.nav_btn {
+  display: inline-block;
+  width: 4rem;
 }
 
 .profile_bio_mobile {
