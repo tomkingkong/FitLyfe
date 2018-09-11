@@ -1,0 +1,8 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.desktop_main {
+  display: grid;
+  grid-column: 2;
+}
