@@ -28,3 +28,23 @@ body {
 p {
   margin: 0;
 }
+.profile_btns {
+  display: none;
+}
+
+.bar-svg {
+  animation: progress 0.75s ease-out forwards;
+  fill: none;
+  stroke: #45b9c1;
+  stroke-width: 30;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 300;
+  }
+}
+
+.sliders {
+  width: 100%;
+}
