@@ -3,6 +3,28 @@ body {
 }
 
 .desktop_main {
-  display: grid;
   grid-column: 2;
+}
+
+.desktop {
+  display: inline-block;
+  width: 49%;
+  border: 0.1rem solid black;
+}
+
+.btn {
+  display: none;
+}
+
+.fitness_nav {
+  width: 100%;
+  border: none;
+}
+
+.profile_bio_mobile {
+  display: none;
+}
+
+p {
+  margin: 0;
 }
